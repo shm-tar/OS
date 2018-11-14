@@ -11,10 +11,10 @@ def shellSort1(arr):
 
     n = len(arr)
     gap = n // 2
-# Do a gapped insertion sort for this gap size.
-# The first gap elements a[0..gap-1] are already in gapped
-# order keep adding one more element until the entire array
-# is gap sorted
+    # Do a gapped insertion sort for this gap size.
+    # The first gap elements a[0..gap-1] are already in gapped
+    # order keep adding one more element until the entire array
+    # is gap sorted
     while gap > 0:
 
         for i in range(gap, n):
@@ -42,10 +42,10 @@ def shellSort2(arr):
 
     n = len(arr)
     gap = n // 2
-# Do a gapped insertion sort for this gap size.
-# The first gap elements a[0..gap-1] are already in gapped
-# order keep adding one more element until the entire array
-# is gap sorted
+    # Do a gapped insertion sort for this gap size.
+    # The first gap elements a[0..gap-1] are already in gapped
+    # order keep adding one more element until the entire array
+    # is gap sorted
     while gap > 0:
 
         for i in range(gap, n):
