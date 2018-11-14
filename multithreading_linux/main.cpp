@@ -1,3 +1,4 @@
+//mutex thread synchronization
 #include <iostream>
 #include <cstdlib>
 #include <pthread.h>
